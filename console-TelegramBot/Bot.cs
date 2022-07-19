@@ -19,7 +19,9 @@ public class Bot
     private static Bot _bot;
 
     public CancellationTokenSource Cts = new();
-
+    /// <summary>
+    /// Конструктор иницализации бота
+    /// </summary>
     private Bot()
     {
         BotClient = new TelegramBotClient("Введите id бота");
